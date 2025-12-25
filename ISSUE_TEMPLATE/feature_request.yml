@@ -1,0 +1,36 @@
+name: ✨ Usulan Fitur
+description: Ajukan ide atau kebutuhan fitur baru
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Lokabisa berkembang dari kebutuhan nyata.
+        Silakan jelaskan ide atau masalah yang ingin diselesaikan.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Masalah yang Ingin Diselesaikan
+      description: Masalah atau kebutuhan yang kamu alami
+      placeholder: Saat ini sulit untuk...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solusi yang Diusulkan
+      description: Gambaran solusi atau pendekatan
+      placeholder: Akan lebih baik jika...
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Konteks Tambahan
+      description: Referensi, contoh, atau konteks lokal
+    validations:
+      required: false
