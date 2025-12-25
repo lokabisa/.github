@@ -1,0 +1,48 @@
+name: 🐞 Laporan Bug
+description: Laporkan masalah atau error pada proyek Lokabisa
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Terima kasih telah melaporkan bug.
+        Mohon isi informasi berikut agar kami bisa membantu dengan lebih cepat.
+
+  - type: input
+    id: version
+    attributes:
+      label: Versi / Commit
+      description: Versi aplikasi atau commit hash (jika diketahui)
+      placeholder: contoh: v0.1.0
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Deskripsi Bug
+      description: Jelaskan bug secara singkat dan jelas
+      placeholder: Apa yang terjadi?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Langkah Reproduksi
+      description: Langkah-langkah untuk mereproduksi bug
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Perilaku yang Diharapkan
+      placeholder: Apa yang seharusnya terjadi?
+    validations:
+      required: false
