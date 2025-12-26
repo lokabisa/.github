@@ -46,3 +46,14 @@ Tidak semua usulan harus langsung diimplementasikan.
 Diskusi terbuka sangat dianjurkan untuk menyamakan konteks dan kebutuhan.
 
 Terima kasih telah membantu membangun Lokabisa.
+
+## Label yang Digunakan
+
+Lokabisa menggunakan label berikut untuk menjaga konsistensi:
+
+- `bug` — Kesalahan atau error
+- `schema` — Perubahan atau penambahan skema
+- `docs` — Dokumentasi
+- `breaking` — Perubahan yang tidak kompatibel
+- `discussion` — Diskusi terbuka
+- `question` — Pertanyaan penggunaan

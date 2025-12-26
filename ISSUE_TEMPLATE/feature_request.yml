@@ -1,7 +1,7 @@
 name: ✨ Usulan Fitur
 description: Ajukan ide atau kebutuhan fitur baru
 title: "[Feature]: "
-labels: ["enhancement"]
+labels: ["schema"]
 body:
   - type: markdown
     attributes:
